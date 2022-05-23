@@ -1,0 +1,16 @@
+{
+    "name": "Scroll&links",
+    "description": "Traversing the google search urls and scrolling, using the keyboard",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/search?q=*"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
