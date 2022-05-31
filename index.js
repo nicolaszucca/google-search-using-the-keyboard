@@ -24,7 +24,7 @@ document.getElementsByTagName('body')[0].addEventListener('keypress', (event) =>
             paused = true;
         }
 
-    } else if (event.keyCode === 13 || event.which === 13) { //enter
+    } else if (event.keyCode === 51 || event.which === 51) { //enter
         //select url
         selectUrls();
     }
